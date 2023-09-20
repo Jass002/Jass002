@@ -1,0 +1,95 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 0;
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Highlight the current page link */
+nav a.current {
+    font-weight: bold;
+}
+/* About section styles */
+#about {
+    background-color: #f5f5f5;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+#about h2 {
+    font-size: 24px;
+    color: #555;
+}
+
+#about p {
+    font-size: 16px;
+}
+/* Projects section styles */
+#projects {
+    padding: 30px;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 20px;
+    color: #555;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+/* Optionally, style project images if included */
+.project img {
+    max-width: 100%;
+}
+/* Contact section styles */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Optionally, style icons or other elements for contact information */
+#contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
